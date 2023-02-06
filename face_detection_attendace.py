@@ -7,7 +7,7 @@ import Project as kc
 
 # from PIL import ImageGrab
 
-path = 'image_folder'
+path = 'Identified_Image'
 images = []
 classNames = []
 myList = os.listdir(path)
