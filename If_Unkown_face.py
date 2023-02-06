@@ -10,7 +10,7 @@ from datetime import datetime
 
 # from PIL import ImageGrab
 def iuf():
-    path = 'image_folder'
+    path = 'Identified_Image'
     images = []
     classNames = []
     myList = os.listdir(path)

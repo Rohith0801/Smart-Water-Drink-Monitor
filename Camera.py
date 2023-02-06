@@ -22,7 +22,7 @@ def camera(namee):
             break
         elif k%256 == 32:
             # SPACE pressed
-            img_name = r"C:\Users\HP\PycharmProjects\pythonProject\image_folder\{}.png".format(namee)
+            img_name = r"C:\Users\HP\PycharmProjects\pythonProject\Identified_Image\{}.png".format(namee)
             cv2.imwrite(img_name, frame)
             print("{} written!".format(img_name))
             img_counter += 1
